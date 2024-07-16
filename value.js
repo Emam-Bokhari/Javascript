@@ -25,8 +25,8 @@ Ex: "Count" ---> aita hoche akta string data type
 // primitive a data gula kivabe handle kora hoi
 let count = 20;
 let item = 10;
-count = item;
-item = 30;
+count = item; // 10  
+item = 30; 
 console.log(item, count);
 
 /* 
@@ -35,10 +35,7 @@ primitive data type ar khetre hoi pass by value, r non-primitive ar khetre hoi p
 
 let user = { name: "Alex" }; // f30110
 let employ = { names: "Sam" }; // ab901b
-
 user=employ; // user = ab901b
-
-
 
 user.names="Bokhari";
 
