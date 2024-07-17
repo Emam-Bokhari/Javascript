@@ -58,7 +58,7 @@ function personName() {
 }
 personName(); */
 
-console.log("This is Alex");  // 1st print
+console.log("This is Alex"); // 1st print
 
 const z = 29;
 
@@ -66,11 +66,35 @@ function test() {
   const x = 25;
   const y = 25;
   function sum() {
-    console.log(x + y); // 3rd print 
+    console.log(x + y); // 3rd print
   }
   console.log("What's Up!"); // 2nd print
   sum();
   console.log("Nothing!"); // 4th print
 }
-test()
+test();
 console.log("Okay!"); // 5th print
+
+console.log("This is Joe"); // 1st print
+
+const a = 5;
+const b = 10;
+
+const user = { name: "Emam", age: 24 }; 
+
+function sum() {
+  let x = 5;
+  let y = 5;
+  console.log(x + y); // 3rd print 10
+  function mul() {
+    const marks = 88;
+    const average = marks / 2;
+    console.log(average); // 4th print 44
+  }
+  mul();
+  console.log("Done!"); // 5th print Done
+}
+console.log(user); // 2nd print {name:'Emam',age:24}
+sum()
+console.log("Execute Done") // 6th print 'Execute Done'
+console.log(a+b); // 7th print 15
