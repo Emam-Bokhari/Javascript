@@ -17,7 +17,7 @@
 Non primitive data type hoise akta complex data type, ja toiri hoise primitive data type gular somonnoye.
 Ex: "Count" ---> aita hoche akta string data type
     10 ---> aita hoche akta number data type
-    {"Count":10} --->string r number ar sommoniye akta object toiri kora hoise
+    {Count:10} --->string r number ar sommoniye akta object toiri kora hoise
     object a 2 ta jinish ase akta hoche key="Count", r akta hoche value=10
 
 */
