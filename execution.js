@@ -4,7 +4,7 @@
 ans: prothum a tokenization kore orthat choto choto tokra tokra kore venge fele,arpor ast (abstract syntex tree) toiri kore, arpor aita k machine code a rupantor kore, arpor shiata browser a run hoi
 */
 
-/* console.log("Inside global execution context");
+console.log("Inside global execution context");
 var a = 5;
 
 function testMe() {
@@ -26,9 +26,10 @@ function testMe() {
 }
 
 testMe();
-console.log("Exiting global execution context"); */
+console.log("Exiting global execution context"); 
 
-/* const message = "I can do it";
+// code blocks
+const message = "I can do it";
 
 function sum(a, b) {
   const result = a + b;
@@ -47,17 +48,18 @@ function getResult(a, b) {
   return calc(a, b);
 }
 getResult(5, 7);
- */
 
-/* const x = 10;
+
+ const x = 10;
 
 function personName() {
   const y = { name: "Emam Bokhari", age: 24 };
   console.log("Moshfiqur Rahman");
   console.log(y);
 }
-personName(); */
+personName(); 
 
+// code blocks
 console.log("This is Alex"); // 1st print
 
 const z = 29;
@@ -75,6 +77,7 @@ function test() {
 test();
 console.log("Okay!"); // 5th print
 
+// code blocks
 console.log("This is Joe"); // 1st print
 
 const a = 5;

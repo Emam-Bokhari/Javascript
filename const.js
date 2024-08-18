@@ -10,7 +10,7 @@ const x = 20;
 
 console.log(x);
 
-x=50;
+const x=50;
 
 console.log(x)
 
