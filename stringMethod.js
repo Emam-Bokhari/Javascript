@@ -25,3 +25,12 @@ console.log(e.endsWith(".jpg"));
 
 const f="Emam Bokhari";
 console.log(f.startsWith("E"));
+
+// toUpperCase,toLowerCase method
+// Ex:01,02
+// string k uppercase othuba lowercase korar jonno ai method gula use kora hoi
+const g="this is moshfiqur rahman";
+console.log(g.toUpperCase());
+
+const h="This is Moshfiqur Rahman";
+console.log(h.toLowerCase());
