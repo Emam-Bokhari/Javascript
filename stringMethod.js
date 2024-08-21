@@ -1,3 +1,15 @@
+/* 
+    * concat
+    * toUpperCase
+    * toLowerCase
+    * split
+    * trim
+    * startsWith
+    * endsWith
+    * substring
+    * chartAt 
+*/
+
 // concat method
 // Ex:01
 // concat method ar madhome amra akti string ar sathe arekti string k jog korte pari
@@ -8,12 +20,12 @@ console.log(a.concat(b));
 // substring method
 // Ex:01
 // string theke nirdisto onghso ber kore anar jonno amara substing method use korte pari
-const c="This is Apple";
-console.log(c.substring(0,5));
+const c="Industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into";
+console.log(c.substring(0,100).concat("..."));
 
 // chartAt method
 // Ex:01
-// chartAt method ar mahdome amra akti string kon ar nirdisto index a ki ache ta dekhte pari
+// chartAt method ar mahdome amra akti string ar nirdisto index a ki ache ta dekhte pari
 const d="Moshfiqur Rahman";
 console.log(d.charAt(0));
 
