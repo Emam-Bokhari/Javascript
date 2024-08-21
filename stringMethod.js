@@ -10,3 +10,9 @@ console.log(a.concat(b));
 // string theke nirdisto onghso ber kore anar jonno amara substing method use korte pari
 const c="This is Apple";
 console.log(c.substring(0,5));
+
+// chartAt method
+// Ex:01
+// chartAt method ar mahdome amra akti string kon ar nirdisto index a ki ache ta dekhte pari
+const d="Moshfiqur Rahman";
+console.log(d.charAt(0));
