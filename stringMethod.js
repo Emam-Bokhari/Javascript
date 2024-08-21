@@ -16,3 +16,12 @@ console.log(c.substring(0,5));
 // chartAt method ar mahdome amra akti string kon ar nirdisto index a ki ache ta dekhte pari
 const d="Moshfiqur Rahman";
 console.log(d.charAt(0));
+
+// startsWith method,endWith method
+// Ex:01,02
+// startsWith,endsWith method ar mahodme amra akti string ar soro abong sesh ki dara hoise tar upor vitti kore boolearn value pai, true or false
+const e="Mango.jpg";
+console.log(e.endsWith(".jpg"));
+
+const f="Emam Bokhari";
+console.log(f.startsWith("E"));
