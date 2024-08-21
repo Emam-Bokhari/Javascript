@@ -34,3 +34,12 @@ console.log(g.toUpperCase());
 
 const h="This is Moshfiqur Rahman";
 console.log(h.toLowerCase());
+
+// trim,split method
+// Ex:01,02
+// kono string samne/pichoner khali space gula remove korte trim method use kora hoi
+const i="          Cat food";
+console.log(i.trim());
+// kono akta sentence k nirdiso kiso akta upor vitti kore venge akta array te dhokanor kaje split method use kora hoi
+const j="This is Mosh fiqur Rahman";
+console.log(j.split(" "));
