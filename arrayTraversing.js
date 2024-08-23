@@ -15,9 +15,9 @@ console.log(sum);
 // Ex:03
 let c = [1, 2, 3, 4, 5, 6, 7];
 for (let i = 0; i < c.length; i++) {
-//   console.log(c[i])
-  const number=c[i]
-  if(number%2==0){
-    console.log("Even Number",number)
+  //   console.log(c[i])
+  const number = c[i];
+  if (number % 2 == 0) {
+    console.log("Even Number", number);
   }
 }
