@@ -12,3 +12,4 @@ const prop="d";
 obj["c"] = 101;
 obj.prop=102;
 console.log(obj);
+
