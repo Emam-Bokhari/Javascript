@@ -19,7 +19,6 @@ if (Object.values(number) > Object.values(numberTwo)) {
 } else {
   console.log(false);
 }
-
 // Ex:02 comparing objects
 if (
   JSON.stringify(Object.values(number)) >
