@@ -1,17 +1,17 @@
 function jerry() {
-    console.log(name);
-  }
-  
-  function tom() {
-    var name = "tom";
-    jerry();
-  }
-  
-  var name = "cartoon";
-  
-  tom();
-  
-  /* 
+  console.log(name);
+}
+
+function tom() {
+  var name = "tom";
+  jerry();
+}
+
+var name = "cartoon";
+
+tom();
+
+/* 
   GEC:
       creation phase:
       jerry:0acb90;
@@ -36,23 +36,23 @@ function jerry() {
   
   
   */
-  
-  var count = 10;
-  
-  function outer() {
-    var count = 20;
-  
-    function inner() {
-      var count = 30;
-      console.log(count);
-    }
-    inner();
+
+var count = 10;
+
+function outer() {
+  var count = 20;
+
+  function inner() {
+    var count = 30;
     console.log(count);
   }
-  outer();
+  inner();
   console.log(count);
-  
-  /* 
+}
+outer();
+console.log(count);
+
+/* 
   GEC:
       creation phase:
       count:undefined;
@@ -76,4 +76,3 @@ function jerry() {
               console.log(10);  // 3rd print
   
   */
-  
