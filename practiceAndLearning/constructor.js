@@ -41,3 +41,25 @@ class Animal {
 const peigon = new Animal();
 
 peigon.describe();
+
+// rectangle
+class Rectangle {
+  constructor(width, height) {
+    this.width = width;
+    this.height = height;
+    this.area = this.calculateArea();
+  }
+
+  calculateArea() {
+    return this.width * this.height;
+  }
+
+  describe() {
+    console.log(
+      `Rectangle width: ${this.width}, height: ${this.height}, areas:${this.area}`
+    );
+  }
+}
+
+const rect1 = new Rectangle(5, 10);
+rect1.describe();
