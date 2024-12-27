@@ -177,3 +177,25 @@ const car2 = new CarTwo("Tyota", "Tyota-009");
 
 car1.describeCar();
 car2.describeCar();
+
+// dynamic constructor with arguments
+function Product(name, price) {
+  this.name = name || "Unknown";
+  this.price = price;
+
+  console.log(arguments);
+}
+const product1 = new Product("Soap", 55);
+
+class ProductSoap {
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+
+  describeProduct() {
+    console.log(`Product Name: ${this.name}, price: ${this.price}`);
+  }
+}
+const productSoap = new ProductSoap("Soap", 55);
+productSoap.describeProduct();
