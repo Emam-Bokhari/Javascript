@@ -25,3 +25,19 @@ class Car {
 
 const toyota = new Car("Toyota", "M-0009");
 toyota.displayInfo();
+
+// set default value
+class Animal {
+  constructor(name = "Unknown Animal", species = "Unknown Species") {
+    this.name = name;
+    this.species = species;
+  }
+
+  describe() {
+    console.log(`This is a ${this.species} named ${this.name}`);
+  }
+}
+
+const peigon = new Animal();
+
+peigon.describe();
