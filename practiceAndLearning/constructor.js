@@ -150,3 +150,30 @@ emp1.setSalary(22000);
 console.log(emp1.getEmployeeInfo());
 emp1.setSalary(25000);
 console.log(emp1.getEmployeeInfo());
+
+// constructor overloading
+class CarTwo {
+  constructor(name, brand, color = "Black") {
+    if (arguments.length === 2) {
+      this.name = name;
+      this.brand = brand;
+      this.color = "Black";
+    } else {
+      this.name = name;
+      this.brand = brand;
+      this.color = color;
+    }
+  }
+
+  describeCar() {
+    console.log(
+      `Car name: ${this.name}, Brand Name: ${this.brand}, Car Color: ${this.color}`
+    );
+  }
+}
+
+const car1 = new CarTwo("Tyota", "Tyota-009", "Silver");
+const car2 = new CarTwo("Tyota", "Tyota-009");
+
+car1.describeCar();
+car2.describeCar();
