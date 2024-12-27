@@ -124,3 +124,29 @@ class MathOperations {
 }
 
 console.log(MathOperations.addition(5, 5));
+
+// getter and setter methods
+class Employee {
+  constructor(name, salary) {
+    this.name = name;
+    this.salary = salary;
+  }
+
+  // getter method
+  getEmployeeInfo() {
+    return `${this.name} earns ${this.salary}`;
+  }
+
+  // setter method
+  setSalary(newSalary) {
+    this.salary = newSalary;
+  }
+}
+
+const emp1 = new Employee("Bokhari", 20000);
+console.log(emp1.getEmployeeInfo());
+
+emp1.setSalary(22000);
+console.log(emp1.getEmployeeInfo());
+emp1.setSalary(25000);
+console.log(emp1.getEmployeeInfo());
