@@ -199,3 +199,17 @@ class ProductSoap {
 }
 const productSoap = new ProductSoap("Soap", 55);
 productSoap.describeProduct();
+
+// factory function as constructor
+function createPerson(name, age) {
+  return {
+    name: name,
+    age: age,
+    greet() {
+      console.log(`Hello my name is ${name}, and my age is ${age}`);
+    },
+  };
+}
+
+const moshfiq = createPerson("Bokhari", 24);
+moshfiq.greet();
