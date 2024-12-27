@@ -115,3 +115,12 @@ const person1 = new PersonTwo("Moshfiqur Rahman", 24);
 console.log(person1.getName());
 console.log(person1.age);
 console.log(person1.name);
+
+// static constructor
+class MathOperations {
+  static addition(x, y) {
+    return x + y;
+  }
+}
+
+console.log(MathOperations.addition(5, 5));
