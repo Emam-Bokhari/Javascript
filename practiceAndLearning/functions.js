@@ -24,3 +24,12 @@ console.log(greet("Emam Bokhari"));
 const square = (n) => n * n;
 
 console.log(square(3));
+
+// parameters and default
+
+function greetings(name = "Emam Bokhari") {
+  return `Hi ${name}`;
+}
+
+console.log(greetings());
+console.log(greetings("Moshfiqur Rahman"));
