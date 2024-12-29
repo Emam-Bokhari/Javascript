@@ -47,3 +47,9 @@ const number = [1, 2, 3];
 const maxNumber = Math.max(...number);
 
 console.log(number, maxNumber);
+
+// iife (Immediately invoked function expression)
+
+(function () {
+  console.log("IIFE executed!");
+})();
