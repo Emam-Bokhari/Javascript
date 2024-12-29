@@ -26,3 +26,12 @@ const source = { b: "Horse", c: "Elephent" };
 Object.assign(target, source);
 
 console.log(source);
+
+// Object.keys()
+
+const user = {
+  name: "Moshfiqur Rahman",
+  age: 24,
+};
+
+console.log(Object.keys(user)); // output: ["name","age"]
