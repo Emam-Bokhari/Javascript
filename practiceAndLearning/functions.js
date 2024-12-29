@@ -59,3 +59,15 @@ const greet1 = (function (name) {
 })("Emam Bokhari");
 
 console.log(greet1);
+
+// real life example
+const config = (function () {
+  const apiKey = "12345-ABCDE";
+  const baseURL = "https://api.example.com";
+  return {
+    apiKey,
+    baseURL,
+  };
+})();
+
+console.log(config.apiKey);
