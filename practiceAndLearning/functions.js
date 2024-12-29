@@ -40,3 +40,10 @@ function sum(...numbers) {
 }
 
 console.log(sum(1, 2, 3, 4));
+
+// spread operator
+const number = [1, 2, 3];
+
+const maxNumber = Math.max(...number);
+
+console.log(number, maxNumber);
