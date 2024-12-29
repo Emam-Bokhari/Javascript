@@ -236,3 +236,17 @@ do {
   console.log(i);
   i++;
 } while (i < 5);
+
+// switch statement
+const day1 = "Saturday";
+
+switch (day1) {
+  case "Monday":
+    console.log("Monday");
+    break;
+  case "TuesDay":
+    console.log("TuesDay");
+    break;
+  default:
+    console.log("Invalid!");
+}
