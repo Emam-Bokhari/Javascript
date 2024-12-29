@@ -19,3 +19,8 @@ const greet = (name) => {
 };
 
 console.log(greet("Emam Bokhari"));
+
+// single line arrwo function
+const square = (n) => n * n;
+
+console.log(square(3));
