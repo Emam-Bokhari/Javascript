@@ -216,3 +216,8 @@ if (day === "Monday") {
 } else {
   console.log("Invalid");
 }
+
+// loops
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
