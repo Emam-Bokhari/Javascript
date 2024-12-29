@@ -15,3 +15,14 @@ const car = {
 };
 
 console.log(car.start());
+
+// object methds
+
+// Object.assign()
+
+const target = { a: "Cat" };
+const source = { b: "Horse", c: "Elephent" };
+
+Object.assign(target, source);
+
+console.log(source);
