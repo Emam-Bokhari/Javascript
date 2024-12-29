@@ -33,3 +33,10 @@ function greetings(name = "Emam Bokhari") {
 
 console.log(greetings());
 console.log(greetings("Moshfiqur Rahman"));
+
+// rest parameters
+function sum(...numbers) {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+
+console.log(sum(1, 2, 3, 4));
