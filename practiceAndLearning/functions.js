@@ -53,3 +53,9 @@ console.log(number, maxNumber);
 (function () {
   console.log("IIFE executed!");
 })();
+
+const greet1 = (function (name) {
+  return `Hello ${name}`;
+})("Emam Bokhari");
+
+console.log(greet1);
