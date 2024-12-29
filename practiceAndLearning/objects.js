@@ -44,6 +44,7 @@ console.log(Object.values(user)); // output: ["Moshfiqur Rahman",24]
 const freezeUser = {
   name: "Moshfiqur Rahman",
 };
+freezeUser.name = "Imtiaz Hossain";
 freezeUser.age = 24;
 
 console.log(freezeUser);
@@ -53,3 +54,19 @@ Object.freeze(freezeUser);
 freezeUser.address = "Brahmanbaria";
 
 console.log(freezeUser);
+
+// Object.seal()
+
+const sealUser = {
+  name: "Moshfiqur Rahman",
+};
+
+sealUser.name = "Emam Bokhari";
+sealUser.age = 24;
+console.log(sealUser);
+
+Object.seal(sealUser);
+
+sealUser.fathersName = "Mokhlesur Rahman";
+
+console.log(sealUser);
