@@ -38,3 +38,18 @@ console.log(Object.keys(user)); // output: ["name","age"]
 
 // Object.values
 console.log(Object.values(user)); // output: ["Moshfiqur Rahman",24]
+
+// Object.freeze()
+
+const freezeUser = {
+  name: "Moshfiqur Rahman",
+};
+freezeUser.age = 24;
+
+console.log(freezeUser);
+
+Object.freeze(freezeUser);
+
+freezeUser.address = "Brahmanbaria";
+
+console.log(freezeUser);
