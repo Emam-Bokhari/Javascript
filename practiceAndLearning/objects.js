@@ -35,3 +35,6 @@ const user = {
 };
 
 console.log(Object.keys(user)); // output: ["name","age"]
+
+// Object.values
+console.log(Object.values(user)); // output: ["Moshfiqur Rahman",24]
