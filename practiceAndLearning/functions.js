@@ -12,3 +12,10 @@ const multiply = function (a, b) {
 };
 
 console.log(multiply(4, 3));
+
+// arrow function
+const greet = (name) => {
+  return `Hello ${name}`;
+};
+
+console.log(greet("Emam Bokhari"));
