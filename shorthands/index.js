@@ -30,10 +30,10 @@ const {
 let numbers = [0, 1, 2];
 let first = numbers[0];
 let second = numbers[1];
-console.log(first);
-console.log(second);
+// console.log(first);
+// console.log(second);
 
 // Pro Level
 let [one, _, three] = numbers;
-console.log(one);
-console.log(three);
+// console.log(one);
+// console.log(three);
