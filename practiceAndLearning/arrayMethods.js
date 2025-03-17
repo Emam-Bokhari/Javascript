@@ -6,4 +6,5 @@ console.log(emoji);
 emoji.pop();
 console.log(emoji);
 emoji.shift();
+emoji.unshift();
 console.log(emoji);
