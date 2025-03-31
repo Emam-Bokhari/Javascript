@@ -14,4 +14,10 @@ const x=50;
 
 console.log(x)
 
+
+
 // const x=50; aita k bole redeclare | orthat x namok variable akbar ase, ta o abar declare kora
+
+
+const a=32
+console.log(a)
