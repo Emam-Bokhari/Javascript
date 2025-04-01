@@ -12,3 +12,5 @@ console.log(a); // Infinity
 let b = "abc" * 10;
 console.log(b);
 
+let c=10
+
