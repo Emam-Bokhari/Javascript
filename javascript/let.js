@@ -15,6 +15,6 @@ console.log(y);
 
 // aita k bola hoi reassign
 let z=30;
-z=40;
-console.log(z)
+test=40;
+console.log(test)
 
