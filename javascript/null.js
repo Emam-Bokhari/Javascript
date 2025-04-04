@@ -14,5 +14,5 @@ z = 24;
 console.log(z);
 
 let a = null;
-a = "Emam Bokhari";
-console.log(a);
+test = "Emam Bokhari";
+console.log(test);
